@@ -1,20 +1,26 @@
 // Projects.jsx
-
 import FadeInSection from './FadeInSection';
 
 const projects = [
   {
-    name: 'SaaS Dashboard',
-    description: 'A responsive analytics dashboard with charts, dark mode, and user auth.',
-    tech: 'React, Chart.js, Firebase',
-    link: 'https://your-saas-demo.com',
+    name: 'Tiketi-Tamasha',
+    description: 'A web-based event ticketing system for managing bookings, events, and payments.',
+    tech: 'React, Python, SQLAlchemy, HTML, CSS',
+    link: 'https://euphonious-cupcake-bdec30.netlify.app/',
   },
   {
-    name: 'Landing Page Optimization',
-    description: 'A/B tested marketing page that increased signups by 30%.',
-    tech: 'React, Split.io, Netlify',
-    link: 'https://your-landing-demo.com',
+    name: 'E-Learning E-Commerce Platform',
+    description: 'A platform for course enrollment, book purchases, and service engagement.',
+    tech: 'React, Python, SQLAlchemy, HTML, CSS',
+    link: '#',
   },
+
+    {
+        name: 'Portfolio Website',
+        description: 'A personal portfolio showcasing my projects and skills.',
+        tech: 'React, Framer Motion, CSS',
+        link: 'https://portfolio-eta-ten-41.vercel.app/',
+    },
 ];
 
 export default function Projects() {
