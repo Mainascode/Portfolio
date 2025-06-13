@@ -1,4 +1,3 @@
-
 // Contact.jsx
 import FadeInSection from './FadeInSection';
 
@@ -10,13 +9,15 @@ export default function Contact() {
         <p style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>
           Ready to bring your idea to life? Reach out and let’s build something great.
         </p>
-        <a href="mainaemmanuel855@gmail.com" style={{
+        <p>Email me at: <a href="mailto:mainaemmanuel855@gmail.com">mainaemmanuel855@gmail.com</a></p>
+        <a href="mailto:mainaemmanuel855@gmail.com" style={{
           backgroundColor: 'var(--link)',
           color: 'white',
           padding: '0.75rem 1.5rem',
           borderRadius: '6px',
           fontWeight: 'bold',
           display: 'inline-block',
+          marginTop: '1rem',
         }}>
           Contact Me
         </a>

@@ -28,7 +28,7 @@ export default function Hero() {
           I help startups and businesses create clean, responsive, and performant React apps.
         </p>
         <a
-          href="mainaemmanuel855@gmail.com"
+          href="#contact"
           style={{
             position: 'fixed',
             bottom: '1.5rem',
@@ -49,4 +49,3 @@ export default function Hero() {
     </FadeInSection>
   );
 }
-
