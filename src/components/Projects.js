@@ -12,7 +12,7 @@ const projects = [
     name: 'E-Learning E-Commerce Platform',
     description: 'A platform for course enrollment, book purchases, and service engagement.',
     tech: 'React, Python, SQLAlchemy, HTML, CSS',
-    link: '#',
+    link: 'https://content-guru-6jvp.vercel.app/',
   },
 
     {
