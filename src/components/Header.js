@@ -1,23 +1,22 @@
-import { useEffect, useState } from 'react';
+// components/Header.jsx
+
 
 export default function Header() {
-  const [dark, setDark] = useState(() => localStorage.getItem('theme') === 'dark');
-
-  useEffect(() => {
-    document.body.classList.toggle('dark-theme', dark);
-    localStorage.setItem('theme', dark ? 'dark' : 'light');
-  }, [dark]);
+ 
 
   return (
     <header>
+      <div className="logo">
+        <a href="/" style={{ fontWeight: "bold", fontSize: "1.3rem", color: "black" }}>
+          🌟 MAINA
+        </a>
+      </div>
       <nav>
         <a href="#about">About</a>
-        <a href="#projects">Work</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button onClick={() => setDark((prev) => !prev)}>
-        {dark ? 'Light' : 'Dark'} Mode
-      </button>
+
     </header>
   );
 }

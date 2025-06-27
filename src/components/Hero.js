@@ -15,8 +15,8 @@ export default function Hero() {
         style={{
           textAlign: 'center',
           padding: '6rem 1rem',
-          background: 'linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%)',
-          color: 'white',
+          background: 'linear-gradient(135deg,rgb(148, 85, 134) 0%,rgb(195, 153, 199) 100%)',
+          color: '',
           y,
           position: 'relative',
         }}
@@ -34,7 +34,7 @@ export default function Hero() {
             bottom: '1.5rem',
             right: '1.5rem',
             backgroundColor: 'var(--link)',
-            color: '#fff',
+            color: 'black',
             padding: '0.75rem 1.5rem',
             borderRadius: '50px',
             fontWeight: 'bold',
